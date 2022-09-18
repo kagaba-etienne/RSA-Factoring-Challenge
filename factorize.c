@@ -6,9 +6,9 @@
  * Return: first factor
  */
 
-int factorize(int n)
+uint128_t factorize(uint128_t n)
 {
-	int i;
+	uint128_t i;
 
 	i = 2;
 	while (i < n)
