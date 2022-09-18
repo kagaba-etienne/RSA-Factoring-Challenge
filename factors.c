@@ -25,9 +25,9 @@ int main(int argc, char **argv)
 		_print_u128_u(test);
 		factor1 = factorize(test);
 		factor2 = test / factor1;
-		printf(" =  ");
+		printf("=");
 		_print_u128_u(factor2);
-		printf(" * ");
+		printf("*");
 		_print_u128_u(factor1);
 		printf("\n");
 	}
