@@ -11,7 +11,7 @@ uint128_t factorize(uint128_t n)
 	uint128_t i;
 
 	i = 2;
-	while (i < n)
+	while (i < n / 2)
 	{
 		if (n % i == 0)
 			return (i);

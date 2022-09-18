@@ -27,7 +27,7 @@ uint128_t transform(char *str)
 		strcpy(buffer1, _strrev(buffer1));
 		bufferint64 = strtoull(buffer1, &endptr, base);
 		for (i = 0; i < len; i++)
-			if ( len - i < 19)
+			if ( len - i < 20)
 				str[i] = '\0';
 		bufferint128 = P10_UINT64 * transform(str);
 		bufferint128 += (uint128_t)(bufferint64);
